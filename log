@@ -51,3 +51,16 @@ Wed 20 Mar 2024 11:48:32 PM UTC:
  tests:  3|2
 total_score: 40/70
 7cee6fe
+Wed 20 Mar 2024 11:49:55 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:109:19: error: expected ‘;’ before ‘push’
+  109 |     push(P1, dato)
+      |                   ^
+      |                   ;
+  110 |     push(P2, dato);
+      |     ~~~~           
+Compilation failed
+5caf74d
