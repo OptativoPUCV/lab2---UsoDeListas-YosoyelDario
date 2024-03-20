@@ -70,3 +70,17 @@ Wed 20 Mar 2024 11:50:01 PM UTC:
  tests:  4|1
 total_score: 50/70
 953bc55
+Wed 20 Mar 2024 11:56:05 PM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:124:4: error: ‘return’ with no value, in function returning non-void [-Werror=return-type]
+  124 |    return ;
+      |    ^~~~~~
+exercises.c:121:5: note: declared here
+  121 | int parentesisBalanceados(char *cadena) {
+      |     ^~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ff15791
