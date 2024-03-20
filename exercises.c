@@ -81,7 +81,7 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
-  int* elementoA = first(L);
+  int* elementoA = first(L); // elemento Actual
   while(elementoA != NULL)
   {
     if(*elementoA == elem)
