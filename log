@@ -154,3 +154,20 @@ exercises.c:134:18: error: initialization of ‘char’ from ‘char *’ makes 
 cc1: all warnings being treated as errors
 Compilation failed
 7c0bb2c
+Thu 21 Mar 2024 12:17:01 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:135:27: error: comparison between pointer and integer [-Werror]
+  135 |       if((c == ')' && top != '(') || (c == ']' && top != '[') || (c == '}' && top != '{')){
+      |                           ^~
+exercises.c:135:55: error: comparison between pointer and integer [-Werror]
+  135 |       if((c == ')' && top != '(') || (c == ']' && top != '[') || (c == '}' && top != '{')){
+      |                                                       ^~
+exercises.c:135:83: error: comparison between pointer and integer [-Werror]
+  135 |       if((c == ')' && top != '(') || (c == ']' && top != '[') || (c == '}' && top != '{')){
+      |                                                                                   ^~
+cc1: all warnings being treated as errors
+Compilation failed
+23da0ca
