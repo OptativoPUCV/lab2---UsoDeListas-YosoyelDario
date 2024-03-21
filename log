@@ -314,3 +314,14 @@ exercises.c:136:25: error: invalid use of incomplete typedef ‘Stack’ {aka �
       |                         ^~~~~
 Compilation failed
 5a3a5f5
+Thu 21 Mar 2024 05:24:27 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:136:21: error: initialization of ‘char’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  136 |       char primer = pop(pila);
+      |                     ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+4807899
