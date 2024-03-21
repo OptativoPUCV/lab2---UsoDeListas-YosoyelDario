@@ -235,3 +235,20 @@ Thu 21 Mar 2024 05:14:49 PM UTC:
  tests:  4|1
 total_score: 50/70
 76d15b1
+Thu 21 Mar 2024 05:22:02 PM UTC: 
+ exercises.c | 27 +++++++++++++++++++++++++--
+ 1 file changed, 25 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:132:15: error: invalid use of incomplete typedef ‘Stack’ {aka ‘List’}
+  132 |       if(pila -> top == NULL)
+      |               ^~
+exercises.c:136:21: error: initialization of ‘char’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  136 |       char primer = pop(pila);
+      |                     ^~~
+exercises.c:143:11: error: invalid use of incomplete typedef ‘Stack’ {aka ‘List’}
+  143 |   if(pila -> top == NULL)
+      |           ^~
+cc1: all warnings being treated as errors
+Compilation failed
+3690c5e
