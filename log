@@ -294,3 +294,13 @@ exercises.c:136:21: error: void value not ignored as it ought to be
 cc1: all warnings being treated as errors
 Compilation failed
 c4c342e
+Thu 21 Mar 2024 05:24:08 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:136:26: error: invalid use of incomplete typedef ‘Stack’ {aka ‘List’}
+  136 |       char primer = *pop(*pila);
+      |                          ^~~~~
+Compilation failed
+9edb248
