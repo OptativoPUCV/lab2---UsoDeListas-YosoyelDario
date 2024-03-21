@@ -361,3 +361,9 @@ exercises.c:131:18: error: ‘copia’ undeclared (first use in this function); 
 exercises.c:131:18: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 29368c6
+Thu 21 Mar 2024 05:40:12 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|0
+total_score: 70/70
+dd49d03
