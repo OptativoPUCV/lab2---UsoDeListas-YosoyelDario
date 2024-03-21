@@ -385,3 +385,13 @@ stack.h:11:31: note: expected ‘void *’ but argument is of type ‘char’
 cc1: all warnings being treated as errors
 Compilation failed
 d093c2c
+Thu 21 Mar 2024 05:40:47 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:133:18: error: invalid type argument of unary ‘*’ (have ‘int’)
+  133 |       push(pila, *c);
+      |                  ^~
+Compilation failed
+3d93158
