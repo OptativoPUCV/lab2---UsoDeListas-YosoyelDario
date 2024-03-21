@@ -142,6 +142,9 @@ int parentesisBalanceados(char *cadena) {
     free(lista);
     return 1;
   }     
-  else return 0;
+  else{
+    free(lista);
+    return 0;
+  }     
 }
 
