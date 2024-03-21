@@ -304,3 +304,13 @@ exercises.c:136:26: error: invalid use of incomplete typedef ‘Stack’ {aka �
       |                          ^~~~~
 Compilation failed
 9edb248
+Thu 21 Mar 2024 05:24:16 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:136:25: error: invalid use of incomplete typedef ‘Stack’ {aka ‘List’}
+  136 |       char primer = pop(*pila);
+      |                         ^~~~~
+Compilation failed
+5a3a5f5
