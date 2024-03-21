@@ -325,3 +325,9 @@ exercises.c:136:21: error: initialization of ‘char’ from ‘void *’ makes 
 cc1: all warnings being treated as errors
 Compilation failed
 4807899
+Thu 21 Mar 2024 05:28:18 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+25ea2ba
