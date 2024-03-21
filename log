@@ -205,3 +205,9 @@ exercises.c:134:18: error: initialization of ‘char’ from ‘char *’ makes 
 cc1: all warnings being treated as errors
 Compilation failed
 10b0f61
+Thu 21 Mar 2024 12:19:13 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+ba3a65c
