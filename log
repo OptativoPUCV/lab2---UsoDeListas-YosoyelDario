@@ -349,3 +349,15 @@ Thu 21 Mar 2024 05:37:28 PM UTC:
  tests:  4|1
 total_score: 50/70
 395f4ce
+Thu 21 Mar 2024 05:40:05 PM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:131:18: error: ‘copia’ undeclared (first use in this function); did you mean ‘copiaC’?
+  131 |       push(pila, copia);
+      |                  ^~~~~
+      |                  copiaC
+exercises.c:131:18: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+29368c6
