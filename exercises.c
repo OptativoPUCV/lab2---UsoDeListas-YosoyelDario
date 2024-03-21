@@ -126,11 +126,9 @@ int parentesisBalanceados(char *cadena)
     char c = cadena[i];
     if(c == '(' || c == '[' || c == '{')
     {
-      /*
       char *copiaC = malloc(sizeof(char));
       *copiaC = c;
-      */
-      push(pila, &c);
+      push(pila, copiaC);
     }
     else if (c == ')' || c == ']' || c == '}')
     {
