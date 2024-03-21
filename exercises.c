@@ -128,23 +128,18 @@ int parentesisBalanceados(char *cadena) {
     }
     else if(c == ')' || c == ']' || c == '}'){
       if(get_size(lista) == 0){
-        free(lista);
         return 0;
       }
       char top = *(char*)popFront(lista); //top = inicio corchete.  
       if((c == ')' && top != '(') || (c == ']' && top != '[') || (c == '}' && top != '{')){
-        free(lista);
         return 0;
       }
     }
   }
-  if(get_size(lista) == 0){
-    free(lista);
-    return 1;
-  }     
-  else{
+  if(get_size(lista) != 0){
     free(lista);
     return 0;
-  }     
+  }
+  return 1;
 }
 
