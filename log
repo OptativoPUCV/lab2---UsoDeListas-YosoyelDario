@@ -280,3 +280,17 @@ exercises.c:136:20: error: initialization of ‘char’ from ‘void *’ makes 
 cc1: all warnings being treated as errors
 Compilation failed
 69c2610
+Thu 21 Mar 2024 05:24:02 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:136:21: error: dereferencing ‘void *’ pointer [-Werror]
+  136 |       char primer = *pop(pila);
+      |                     ^~~~~~~~~~
+exercises.c:136:21: error: void value not ignored as it ought to be
+  136 |       char primer = *pop(pila);
+      |                     ^
+cc1: all warnings being treated as errors
+Compilation failed
+c4c342e
