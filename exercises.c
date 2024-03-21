@@ -127,7 +127,7 @@ int parentesisBalanceados(char *cadena) {
       pushFront(lista, &c);
     }
     else if(c == ')' || c == ']' || c == '}'){
-      if(get_size(lista) == 0){
+      if(get_size(lista) != 0){
         return 0;
       }
       char top = *(char*)popFront(lista); //top = inicio corchete.  
