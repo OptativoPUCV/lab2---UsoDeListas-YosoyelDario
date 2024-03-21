@@ -269,3 +269,14 @@ Thu 21 Mar 2024 05:23:32 PM UTC:
  tests:  4|1
 total_score: 50/70
 a102fbd
+Thu 21 Mar 2024 05:23:43 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:136:20: error: initialization of ‘char’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  136 |       char primer =pop(pila);
+      |                    ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+69c2610
