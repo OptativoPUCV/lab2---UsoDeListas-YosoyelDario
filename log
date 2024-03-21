@@ -110,3 +110,25 @@ exercises.c:134:18: error: initialization of ‘char’ from ‘void *’ makes 
 cc1: all warnings being treated as errors
 Compilation failed
 a923c28
+Thu 21 Mar 2024 12:14:56 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:127:24: error: passing argument 2 of ‘pushFront’ makes pointer from integer without a cast [-Werror=int-conversion]
+  127 |       pushFront(lista, c);
+      |                        ^
+      |                        |
+      |                        char
+In file included from exercises.c:6,
+                 from test.c:5:
+arraylist.h:17:31: note: expected ‘void *’ but argument is of type ‘char’
+   17 | void pushFront(List *L, void *dato);
+      |                         ~~~~~~^~~~
+In file included from test.c:5:
+exercises.c:134:18: error: initialization of ‘char’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  134 |       char top = popFront(lista); //top = inicio corchete.
+      |                  ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+dd7f264
